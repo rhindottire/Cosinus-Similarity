@@ -1,0 +1,9 @@
+source1 = https://ekonomi.republika.co.id/berita/ssbqvd370/pertalite-dan-pertamax-tak-serupa-tapi-sama
+source2 = https://www.kompas.com/tren/read/2024/08/19/173000165/efek-campur-pertalite-dan-pertamax-bisakah-sebabkan-tangki-berkarat-?page=all
+source3 = https://www.republika.id/posts/25348/angka-stunting-turun-33-persen-sepanjang-2019-2021
+source4 = https://lifestyle.kompas.com/read/2021/03/05/131932420/masa-pandemi-bisa-tingkatkan-angka-anak-stunting-kok-bisa
+source5 = https://www.detik.com/edu/perguruan-tinggi/d-6065391/double-degree-vs-double-major-bedanya-apa
+
+Query point-a S1 & S2 = "Pertalite dan Pertamax"
+Query point-c S3 & S4 = "Anak Indonesia stunting"
+Query point-e S5 = "Double Major dan Double Degree"

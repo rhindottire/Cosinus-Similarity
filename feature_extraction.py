@@ -117,14 +117,14 @@ train_set = [hasilstem1,hasilstem2,hasilstem3,hasilstem4,hasilstem5]
 
 count_vectorizer = CountVectorizer(tokenizer=tokenize)
 data = count_vectorizer.fit_transform(train_set).toarray()
-vocab = count_vectorizer.get_feature_names()
+vocab = count_vectorizer.get_feature_names_out()
 
-print "Jumlah Term FREQUENCY============================="
-print data
-print "VECTOR FITUR============================="
-print vocab
-print "JUMLAH VECTOR FITUR============================="
-print len(vocab)
+print("Jumlah Term FREQUENCY=============================")
+print(data)
+print("VECTOR FITUR=============================")
+print(vocab)
+print("JUMLAH VECTOR FITUR=============================")
+print(len(vocab))
 
 # export excel terms Frequency
 xls="Term-Frequency,"
@@ -233,7 +233,7 @@ for i in range(5):
 
 file = open("tf-idf.csv","w")
 file.write(xls)
-print "exported"
+print("exported")
 
 
 
